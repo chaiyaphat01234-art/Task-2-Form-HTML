@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ระบบลงทะเบียนนักศึกษาใหม่</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <h1>ระบบลงทะเบียนนักศึกษาใหม่</h1>
-    <p>กรุณากรอกข้อมูลให้ครบถ้วนและถูกต้องเพื่อดำเนินการลงทะเบียนเข้าศึกษาต่อ</p>
-  </header>
+  <header id="main-header">
+  <h1>ระบบลงทะเบียน<span class="highlight">นักศึกษาใหม่</span></h1>
+  <p>กรุณากรอกข้อมูลให้ครบถ้วนและถูกต้องเพื่อดำเนินการลงทะเบียนเข้าศึกษาต่อ</p>
+</header>
 
   <hr>
 
@@ -21,7 +22,7 @@
       <fieldset>
         <legend>ข้อมูลการเข้าสู่ระบบ</legend>
 
-        <div>
+        <div class="form-group">
           <label for="username">ชื่อผู้ใช้ (Username):</label>
           <input type="text" id="username" name="username" required>
         </div>
